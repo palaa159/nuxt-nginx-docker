@@ -8,6 +8,8 @@
       <h2 class="subtitle">
         Nuxt.js project
       </h2>
+      <nuxt-link to="/about">
+      go to about</nuxt-link>
       <div class="links">
         <a
           href="https://nuxtjs.org/"
@@ -42,7 +44,8 @@ export default {
 }
 
 .title {
-  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* 1 */
+  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; /* 1 */
   display: block;
   font-weight: 300;
   font-size: 100px;
